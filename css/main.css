@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+/* Styling the navigation bar */
+
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+  padding:0;
+}
+
+.navbar-header {
+	padding:0;
+	margin:0;
+}
+
+.navbar-header h1{
+	float:left;
+	color:black;
+	margin-top:-10px;
+	font-family: Arial;
+
+}
+
+#header-nav {
+	border:2px solid black;
+}
+
+#collapsable-nav {
+	margin-right:-30px;
+	margin-left:-30px;
+	border:0;
+}
+
+#nav-list {
+	margin:0;
+	padding:0;
+	font-size:1.25em;
+}
+
+#nav-list li {
+  color: white;
+  background-color:lightgreen; 
+  text-align: center;
+  margin:0;
+}
+
+#nav-list hr {
+  color: gray;
+  size:1px;
+}
+
+#nav-list {
+	border:0.5px solid black;
+}
+
+#nav-list li {
+	border:0.5px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover, .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle:active, .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+/* End of Navigation Styling */
+
+/*Jumbotron styling */
+
+/*.jumbotron {
+	padding:0;
+	background-color: gray;
+} */
+
+#tile {
+	font-size:2em;
+	font-family:"Monotype Corsiva", cursive, sans-serif;
+	text-align:center;
+	color:black;
+	background-color: gray;
+	margin-bottom:20px;
+}
+
+.col-sm-12 {
+	background-color:lightblue;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+.col-xs-12 {
+	background-color: lightblue;
+}
+
+
+.col-xs-12 h1 {
+ 	font-family: "Comic Sans MS", cursive, sans-serif;
+ 	font-size: 1.5em;
+ 	color: black;
+}
+
+.col-xs-12 p {
+ 	font-family: "Times New Roman", Times, serif;
+ 	color: black;
+ 	font-size:1em;
+ 	text-align:left;
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        width:80%;
+        
+    }
+    .container {
+    	width:100%;
+    }
+}
+
+@media (min-width:768px) {
+	.container-fluid {
+		width:100%;
+	}
+	.container {
+		width:100%;
+	}
+}
